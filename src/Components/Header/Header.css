@@ -1,0 +1,51 @@
+.containers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: unset;
+  backdrop-filter: blur(30px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile-img {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  display: flex;
+}
+
+.profile img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile-name h2 {
+  font-weight: 500;
+  color: #d1cece;
+}
+.profile-name h3 {
+  font-weight: 400;
+  font-size: 0.9rem;
+  word-spacing: 2px;
+  color: #d1cece;
+}
